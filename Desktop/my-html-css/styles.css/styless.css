@@ -1,0 +1,66 @@
+/* click on + sign to create a new file
+name: styles.css
+Enter
+This files will ONLY have CSS codes 
+1. use link tah in head to link css and html files
+2. cut all css codes that is inside style tag
+3. paste them in this sheet
+This way of styling is EXTERNAL STYLING
+This is very common
+We should use external when possible to keep html code clean and readable*/
+h1{
+    color: red; 
+    font-size: 40px; 
+    font-family: arial-black
+}
+h2{
+    color: maroon; 
+    font-size: 1.8em
+}
+h3{
+    color: #ff00ff; 
+    font-size: 80%;
+    text-align: right;
+    background-color:green
+}
+.yb{
+    font-size: 45px;
+    font-family: Courier;
+    background-color: lightblue;
+    text-align: right;
+    color: gold;
+}
+#hf{
+    color:lightcoral;
+    font-weight: lighter;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img_1{
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    color: pink;
+    padding: 50px;
+}
+.img_2{
+    width: 250px;
+    border: 5px solid;
+    color: red;
+    margin: 50px;
+}
+table {
+    border-style: solid;
+    border-color: red;
+    background-color: lightgray;
+}
+th{
+    border-style: solid;
+    border-color: red;  
+    background-color: darkgray;
+}
+td{
+    border-style: solid;
+    border-color: purple; 
+    color: green; 
+}
