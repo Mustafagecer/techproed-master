@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-03T15:49:29.290Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "as-admin--i-should-be-able-to-create-a-new-user-account-with-different-profiles;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8001900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs in as an admin",
+            "match": {
+              "location": "stepdefinations.GMIBankStepDefinations.user_logs_in_as_an_admin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "navigates to ‘Create or Edit user page’",
+            "match": {
+              "location": "stepdefinations.GMIBankStepDefinations.navigates_to_create_or_edit_user_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter user information",
+            "match": {
+              "location": "stepdefinations.GMIBankStepDefinations.enter_user_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify the new user creation is successful",
+            "match": {
+              "location": "stepdefinations.GMIBankStepDefinations.verify_the_new_user_creation_is_successful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "tring",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999800,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "close the page",
+            "match": {
+              "location": "stepdefinations.GMIBankStepDefinations.close_the_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Admin"
+          }
+        ]
+      }
+    ],
+    "name": "As admin, I should be able to create a new user account with different profiles",
+    "description": "",
+    "id": "as-admin--i-should-be-able-to-create-a-new-user-account-with-different-profiles",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US01_GMIBankCreateUser.feature",
+    "tags": []
+  }
+]

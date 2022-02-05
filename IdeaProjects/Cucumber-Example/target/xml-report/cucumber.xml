@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.696">
+    <testcase classname="As admin, I should be able to create a new user account with different profiles" name="_2" time="0.156">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given user logs in as an admin..............................................passed
+And navigates to ‘Create or Edit user page’.................................passed
+And enter user information..................................................passed
+Then verify the new user creation is successful.............................passed
+Then tring..................................................................undefined
+And close the page..........................................................skipped
+]]></failure>
+    </testcase>
+</testsuite>
